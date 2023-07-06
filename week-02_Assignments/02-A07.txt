@@ -1,0 +1,23 @@
+Emmet:
+
+In Emmet, nesting operators are used to define the hierarchical structure of HTML and CSS 
+code. They allow for quick and concise representation of parent-child relationships between 
+elements. 
+Here are some common nesting operators in Emmet:
+
+1.'>' (Child operator): The > operator is used to specify a direct child element. It creates a 
+  parent-child relationship where the element to the right of the operator is a direct child of 
+  the element to the left.
+
+    Example: div > p generates <div><p></p></div>. 
+
+2.'+' (Adjacent sibling operator): The + operator indicates an adjacent sibling element.
+     It creates sibling elements that appear immediately after the element to the left of the 
+     operator.
+
+    Example: h1 + p generates <h1></h1><p></p>
+
+3.* (Multiplication operator): The * operator is used to create multiple copies of an element.
+     It is followed by a number indicating the desired multiplication count.
+    
+    Example: ul > li*3 generates <ul><li></li><li></li><li></li></ul>

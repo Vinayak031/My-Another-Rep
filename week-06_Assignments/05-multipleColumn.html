@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Columns</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;500&family=Poppins&family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+        body {
+            font-family: 'Poppins';
+            background-color: #2A3439;
+        }
+
+        body h1 {
+            text-align: center;
+            color: #df5858;
+        }
+        .content{
+            display:flex;
+            gap:20px;
+            justify-content: center;
+        }
+        .img-tag{
+            width:100px;
+            height:100px;
+            position: relative;
+        }
+        .img-tag img{
+            width:100px;
+            position: absolute;
+            left: 120px;
+        }
+        .js-c img{
+            width:60px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .html-c{
+            background-color: #ff5e5e;
+        }
+        .css-c{
+            background-color: #00a2ff;
+        }
+        .js-c{
+            width:90px;
+            height:90px;
+            position: relative;
+            /* background-color: #fff; */
+            border-radius: 50%;
+            margin-left: 35%;
+            background-color: rgb(255, 208, 0);
+        }
+        .container{
+            width:350px;
+            height: 80vh;
+            border: 3px solid;
+            padding: 20px;
+        }
+        .container h1{
+            text-align: center;
+            color: black;
+        }
+        .box1{
+            background-color: #00e5ffb3;
+        }
+        .box2{
+            background-color: #f85fa1d1;
+        }
+        .box3{
+            background-color: #7a2dff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Full stack Web Development</h1>
+    <div class="content">
+        <div class="container box1">
+            <h1>HTML</h1>
+            <div class="img-tag">
+                <img src="images/html-img.png">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga explicabo tempore possimus optio cumque recusandae enim numquam fugiat sequi quaerat non nemo dignissimos voluptate maiores rem dolorum ad sapiente quo, soluta consequatur, iusto repellendus minus perspiciatis! Optio laboriosam voluptatum accusantium qui minus inventore impedit veritatis veniam fugit temporibus in dolor asperiores
+          </p>
+        </div>
+        <div class="container box2">
+            <h1>CSS</h1>
+            <div class="img-tag">
+                <img src="images/css-img.png">
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus, magnam debitis sequi neque distinctio temporibus aliquam minima expedita eligendi ex quam alias itaque, esse quaerat consectetur fugiat quis quasi. Amet quod veniam consectetur quas corrupti commodi. Placeat dolor voluptates animi </p>
+        </div>
+        <div class="container box3">
+            <h1>Java Script</h1>
+            <div class="js-c">
+                <img src="images/js-img.png">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem, quidem quasi commodi similique magnam mollitia iste nam reprehenderit repellat.</p>
+        </div>
+    </div>
+</body>
+
+</html>

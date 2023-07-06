@@ -1,0 +1,30 @@
+    Short note on HTML tags,elements and attributes
+    1.HTML Tags:
+        HTML tags are like keywords which defines that how web browser will format and display the content. With the
+        help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain
+        three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+        
+        Examples:h1,h2,h3,p,s,strong,small,b,etc...
+    
+    2.HTML ELements:
+        An HTML file is made of elements. These elements are responsible for creating web pages and define content in
+        that webpage. An element in HTML usually consist of a start tag , close tag and content inserted between them.
+         Technically, an element is a collection of start tag, attributes, end tag, content between
+            them.
+
+        Examples:
+    <h1></h1>,
+    <param name="" value="">,etc...
+    
+    3.HTML Attributes
+        1.HTML attributes are special words which provide additional information about the elements or attributes are
+            the modifier of the HTML element.
+
+        2.Each element or tag can have attributes, which defines the behaviour of that element.
+
+        3.Attributes should always be applied with start tag.
+
+        4.The Attribute should always be applied with its name and value pair.
+
+     Examples:<element attribute_name="value">content</element>
+    

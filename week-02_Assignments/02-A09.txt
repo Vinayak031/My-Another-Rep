@@ -1,0 +1,32 @@
+1)Self-closing tags:
+
+HTML tags that do not require a closing tag. They are used for elements that do not contain any content
+or do not require a closing tag for proper functionality. Instead, they are written with a trailing slash
+before the closing angle bracket (/>).
+
+Example of a self-closing tag: <img src="image.jpg" alt="An image" />
+
+2)Meta Tags:
+
+Meta tags in HTML are used to provide metadata or additional information about an HTML document.
+They are placed within the
+
+<head> section of an HTML document and do not produce any visible
+    content on the webpage. Meta tags are used by search engines, browsers and other applications
+    to understand and process information about the webpage.
+
+    Examples:
+
+    1)
+    <meta charset="UTF-8">:
+    This meta tag specifies the character encoding for the HTML document. UTF-8 is widely used and
+    supports a wide range of characters from various languages.
+
+    2)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">:
+    This meta tag is used for responsive web design. It sets the viewport width and initial zoom level,
+    ensuring proper display and scaling on different devices.
+
+    3)
+    <meta name="description" content="A brief description of the webpage">:
+    This meta tag provides a brief description of the webpage's content. It is often used by search engines

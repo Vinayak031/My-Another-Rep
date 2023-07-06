@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down-menu</title>
+    <style>
+        button{
+            width:220px;
+            height: 30px;
+            background-color: #f66767;
+            padding: 5px 12px;
+            margin-left: 200px;
+            border:none;
+            outline:none;
+        }
+
+        .selection{
+            width:200px;
+            height: 140px;
+            padding:0 10px;
+            margin: 0 200px;
+            display: none;
+            overflow-y: scroll;
+            background-color: #fff7f7;
+        }
+
+        .selection p{
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .selection p:hover{
+            background-color: #c1bfbf;
+        }
+
+        .option-tag:hover .selection{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="option-tag">
+        <button>Hover To View Option</button>
+        <div class="selection">
+            <p>Option 1</p>
+            <p>Option 2</p>
+            <p>Option 3</p>
+            <p>Option 4</p>
+            <p>Option 5</p>
+            <p>Option 6</p>
+        </div>
+    </div>
+</body>
+</html>

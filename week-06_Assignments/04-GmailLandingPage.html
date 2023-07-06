@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-Landing-page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;500&family=Poppins&family=Roboto+Mono:ital,wght@1,600&display=swap');
+        body{
+            font-family: 'Poppins';
+        }
+        nav {
+            display: flex;
+            padding: 10px 0;
+            justify-content: space-between;
+            box-shadow: 2px 2px 3px gray;
+        }
+
+        .logo img {
+            width: 40px;
+            margin-left: 70px;
+        }
+
+        .logo {
+            display: flex;
+        }
+
+        #gmail {
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        .a-tag{
+            text-decoration: none;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .nav-tools button[type=menu] {
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 1px solid #9f9f9f;
+            border-radius: 3px;
+            color: #2c2cfa;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+
+        .c-tag {
+            color: aliceblue;
+            background-color: #007FFF;
+            padding: 5px 10px;
+            border: 1px solid #9f9f9f;
+            border-radius: 3px;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+        .main-section{
+            display: flex;
+        }
+        .content{
+            margin: 100px;
+        }
+        .content h1{
+            font-size: 50px;
+        }
+        .content p{
+            margin-bottom: 50px;
+        }
+        .main-section img{
+            width:800px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img
+                src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97">
+            <span id="gmail">Gmail</span>
+        </div>
+
+        <div class="nav-tools">
+            <a class="a-tag" href="#">For Work</a>
+            <button type="menu">Sign In</button>
+            <button class="c-tag" type="submit">Create an account</button>
+        </div>
+    </nav>
+    <main class="main-section">
+        <div class="content">
+            <h1>Secure , smart , <br> and easy to use email</h1>
+            <p>
+                Get more done with Gmail. Now integrated with Google Chat, Google Meet, and more, all in one place.
+            </p>
+            <button class="c-tag" type="button">Create an account</button>
+            <a class="a-tag" href="#">For Work</a>
+        </div>
+        <img
+            src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880">
+    </main>
+</body>
+
+</html>

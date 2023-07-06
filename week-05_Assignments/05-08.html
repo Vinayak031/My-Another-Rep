@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up-form</title>
+    <style>
+        .content{
+            background-color: grey;
+            height: 100vh;
+            padding: 20px 40px;
+        }
+        .form{
+            width: 600px;
+            height:400px;
+            position: absolute;
+            top: 10px;
+            left:30%;
+            background-color: #fff;
+            padding:30px;
+            
+            border-radius: 8px;
+        }
+        .form h2{
+            font-size: 30px;
+            padding-bottom: 20px;
+            text-align: center;
+            border-bottom: 3px solid gray;
+        }
+        .form .input{
+            padding: 5px;
+        }
+        .form .input input{
+            border:none;
+            outline: none;
+            border-bottom: 2px solid #919191;
+        }
+        .username{
+            width:500px;
+        }
+        .username input{
+            width:100%;
+        }
+        .middle{
+            display: flex;
+        }
+        .email{
+            width:250px;
+        }
+        .email input{
+            width:100%;
+        }
+        .cnumber{
+            width:250px;
+        }
+        .cnumber input{
+            width:100%;
+        }
+        .message textarea{
+            border:none;
+            outline: none;
+            border-bottom: 2px solid #919191;
+        }
+        .sm-btn button{
+            border: none;
+            padding :10px;
+            background-color: #3c89fc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo consequuntur praesentium ea.
+       </h2>
+       <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officia odio quia tenetur iure libero! Velit excepturi possimus, sunt non fugiat numquam exercitationem minima aliquid quae error soluta ea blanditiis pariatur. Placeat sit voluptatem consequuntur, itaque praesentium enim quos ipsam aliquam aut libero, dicta, nesciunt voluptas sunt fugit veritatis adipisci?
+       </p>
+       <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem nulla odio consequatur, illum laboriosam?
+       </h2>
+       <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus, fugiat, facere eos nobis doloremque tempora consectetur molestiae repudiandae possimus est dolor! Cumque ea alias numquam fugit enim minus veniam ullam pariatur libero molestias at fuga eius hic eos placeat, quidem rem. Odit dolorem atque, cumque in optio illum sunt tenetur alias voluptates quo pariatur veniam aliquam architecto esse explicabo quos voluptate? Culpa molestias, veritatis in eveniet asperiores animi aliquid ducimus accusantium error unde. Libero blanditiis molestiae veritatis non animi, voluptatem tempore ratione commodi unde explicabo odit alias doloremque corrupti dolor, atque quidem deleniti sit ut? Officia nobis error excepturi?
+       </p>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aut! Ipsam veniam doloribus, libero eligendi omnis corrupti. Optio, fugit similique expedita iure eum quam eligendi ab doloremque repudiandae pariatur, ex est nam, accusamus aperiam molestias harum aliquam obcaecati explicabo nostrum quia nulla aut quasi quae? Impedit dolorem tenetur culpa, quod dolor repudiandae aliquid molestiae harum labore quos iste optio expedita aliquam officia vero itaque, rem esse qui doloremque id perferendis provident? Adipisci similique nobis iure eos molestiae amet dolores sed qui dolore. In magnam id alias culpa tempora pariatur, libero molestiae odit dolorum repellat, itaque illo architecto dignissimos nesciunt. Cum iste, sit, impedit consectetur ullam perspiciatis minima reiciendis accusantium praesentium vero, totam error quisquam fugit repellat voluptatum dignissimos officiis hic quibusdam nulla incidunt temporibus aut cumque! Accusantium dignissimos porro harum sapiente, hic neque animi pariatur maiores, tempora accusamus nemo sit esse dolor doloribus ad, sequi labore voluptatem eos. Expedita atque enim adipisci veniam velit voluptatibus voluptate omnis sint cupiditate fugit obcaecati quia repellendus amet dolore deleniti quaerat qui beatae, laborum sunt dolores! Atque totam molestiae alias consectetur ex ut qui vitae illo ducimus aliquid neque, itaque odio, quidem, quibusdam sed nisi architecto exercitationem deserunt a esse laborum nemo at! Reiciendis dolorem aliquid iusto vitae eveniet amet, ducimus rerum in! Praesentium, laborum? Distinctio harum, at dolorem eligendi numquam deleniti. Ipsum tenetur, odit tempora recusandae, repellat suscipit quam quasi asperiores temporibus vel ea ipsam velit incidunt, nulla voluptatum! Nobis quam maiores, quis rerum nemo assumenda qui obcaecati saepe laborum et sequi at repellat iusto nisi ut doloremque distinctio quia error ipsa, quidem repellendus inventore alias aperiam. Beatae quis culpa quia alias quae sunt aliquid atque quos est ex quisquam ipsam tempora, blanditiis fuga repellendus, eius cupiditate omnis repudiandae dolor possimus saepe eos odio veritatis! Repudiandae quos, necessitatibus modi doloribus nemo porro nam.</p>
+    </div>
+    <div class="form">
+        <form action="#">
+            <h2>Want a free Consultation?</h2>
+            <div class="input username">
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="middle">
+                <div class="input email">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input cnumber">
+                    <input type="text" placeholder="Contact Number">
+                </div>
+            </div>
+            
+            <div class="input message">
+                <textarea placeholder="Message" cols="80" rows="10"></textarea>
+            </div>
+            <div class="input sm-btn">
+                <button>Send Message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

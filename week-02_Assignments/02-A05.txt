@@ -1,0 +1,13 @@
+
+    What is Emmet?
+        Emmet (formerly Zen Coding) is a set of plug-ins for text editors that allow for high-speed coding and editing in
+        HTML, XML, XSLT, and other structured code formats via content assist. The project was started by Vadim Makeev
+        in 2008 and continues to be actively developed by Sergey Chikuyonok and Emmet users. Since 2015, Mikael
+        Geletsyan is responsible for UX at Emmet. The tools have been incorporated into several popular text editors, as
+        well as some plug-ins developed by the Emmet team and others implemented independently. However, Emmet is
+        primarily independent from any text editor, as the engine works directly with text rather than with any
+        particular software.
+    ->Advantages of Emmet Software:
+        Benefits of using Emmet with HTML: The main benefit of using Emmet with HTML is increased productivity and faster
+        coding. Emmet's shorthand notation allows developers to write code quickly and efficiently, and the plugin's
+        expanding capabilities ensure that the code is valid and properly formatted.</p>
