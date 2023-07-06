@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            --fontSize:1.2rem;
+            --w70:70%
+        }
+        body{
+            background-color: #f2f1f1;
+        }
+        .LoginPageContainer{
+            width: 30rem;
+            height: 25rem;
+            margin: 8rem auto;
+            border-radius: 1rem;
+            box-shadow: 0.1rem 0rem 0.5rem gray;
+            background-color: white;
+            /* Flex */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            font-size: var(--fontSize);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            width: var(--w70);
+            padding: 1rem;
+            border: none;
+            outline: none;
+            border-bottom: 0.15rem solid #e4e1e1;
+            font-size: var(--fontSize);
+        }
+        button{
+            width: 76%;
+            background-color: #007FFF;
+            padding: 0.6rem 0;
+            border: none;
+            outline: none;
+            border-radius: .3rem;
+            margin: 0.5rem 0;
+            color: aliceblue;
+            font-size: var(--fontSize);
+        }
+    </style>
+</head>
+<body>
+    <section class="LoginPageContainer">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Submit</button>
+    </section>
+</body>
+</html>
