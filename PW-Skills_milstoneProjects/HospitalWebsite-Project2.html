@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="outline outline-red-400">
+    <header class="w-full md:h-screen bg-[url('./assets/Project2-Images/background.png')] bg-cover">
+        <nav class="h-20 text-white flex justify-between mx-4 sm:mx-0 sm:justify-around items-center">
+            <div class="flex gap-16">
+                <h1 class="text-2xl">BrandName</h1>
+                <ul class="sm:flex items-center gap-4 hidden">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <button class="hidden sm:block px-4 py-2 font-semibold bg-sky-400 rounded">Get Quote Now -></button>
+                <img class="sm:hidden" src="./assets/Project1-Images/menu-icon.png">
+            </div>
+        </nav>
+        <div class="py-8 md:py-2 flex flex-col md:flex-row md:justify-around items-center gap-8">
+            <div class="text-white flex flex-col items-center gap-8">
+                <h1 class="text-3xl md:text-4xl font-bold">Meet the Best Hospital</h1>
+                <p class="w-80">We know how large objects will act,but things on a small scale</p>
+                <div>
+                    <button class="py-2 px-6 rounded-3xl bg-sky-400">Get Quote Now</button>
+                    <button class="py-2 px-6 rounded-3xl border-2 border-white">Learn More</button>
+                </div>
+            </div>
+            <div class="w-80 p-4 bg-white rounded-md ">
+                <h2 class="mb-4 text-xl font-semibold">Book Appointment</h2>
+                <form action="#">
+                    <label for="name">Name *</label>
+                    <input class="w-full px-4 py-2 my-4 rounded bg-gray-100 border-2 border-gray-200" type="text" id="name" placeholder="Full Name">
+                    <label for="email">Email address *</label>
+                    <input class="w-full px-4 py-2 my-4 rounded bg-gray-100 border-2 border-gray-200" type="email" id="email" placeholder="example@gmail.com">
+                    <label for="dept">Department *</label>
+                    <select class="w-full px-4 py-2 my-4 rounded bg-gray-100 border-2 border-gray-200 text-gray-400" name="dept" id="dept">
+                        <option value="#">Please Select</option>
+                        <option value="emp">Employee</option>
+                        <option value="mng">Manager</option>
+                    </select>
+                    <label for="time">Time *</label>
+                    <select class="w-full px-4 py-2 my-4 rounded bg-gray-100 border-2 border-gray-200 text-gray-400" name="dept" id="dept">
+                        <option value="#">4:00 pm Available</option>
+                        <option value="emp">5:30 pm</option>
+                        <option value="mng">6:00 pm</option>
+                    </select>
+                    <button class="w-full py-2 mt-4 text-white font-semibold bg-sky-400 rounded-md" type="submit">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="w-full">
+            <div class="my-16 flex flex-col justify-center items-center">
+                <h2 class="text-3xl font-semibold">Leading Medicine</h2>
+                <p class="text-center w-10/12 md:w-1/2">Problems tryingto resolve the conflict betweem the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-center md:flex-wrap items-center my-8 gap-8">
+                <div class="w-72">
+                    <div class="w-full h-24 bg-blue-300 rounded-t-md flex justify-center items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-white flex justify-center items-center">
+                            <img class="w-4" src="https://cdn-icons-png.flaticon.com/512/2118/2118701.png">
+                        </div>
+                        <span class="text-white font-semibold">Emergency Case</span>
+                    </div>
+                    <div class="px-8 py-4 border-2 border-blue-200 rounded-lg">
+                        <p>- The best products start with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <span class="mt-8 font-semibold text-sky-500">Learn More</span>
+                    </div>
+                </div>
+                <div class="w-72">
+                    <div class="w-full h-24 bg-blue-300 rounded-t-md flex justify-center items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-white flex justify-center items-center">
+                            <img class="w-4" src="https://cdn-icons-png.flaticon.com/512/2118/2118701.png">
+                        </div>
+                        <span class="text-white font-semibold">Cancer care</span>
+                    </div>
+                    <div class="px-8 py-4 border-2 border-blue-200 rounded-lg">
+                        <p>- The best products start with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <span class="mt-8 font-semibold text-sky-500">Learn More</span>
+                    </div>
+                </div>
+                <div class="w-72">
+                    <div class="w-full h-24 bg-blue-300 rounded-t-md flex justify-center items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-white flex justify-center items-center">
+                            <img class="w-4" src="https://cdn-icons-png.flaticon.com/512/2118/2118701.png">
+                        </div>
+                        <span class="text-white font-semibold">Health Queries</span>
+                    </div>
+                    <div class="px-8 py-4 border-2 border-blue-200 rounded-lg">
+                        <p>- The best products start with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <span class="mt-8 font-semibold text-sky-500">Learn More</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full mt-16 py-16 bg-slate-100">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-3xl font-semibold">Leading Medicine</h2>
+                <p class="text-center w-10/12 md:w-1/2">Problems tryingto resolve the conflict betweem the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-center md:flex-wrap">
+                <div class="w-80 p-4 flex flex-col items-start gap-4 bg-white border-2 border-slate-200 rounded-md">
+                    <div class="text-[#fcdb03]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-slate-400">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    <img src="./assets/Project2-Images/user.1.png">
+                </div>
+                <div class="w-80 p-4 flex flex-col items-start gap-4 bg-white border-2 border-slate-200 rounded-md">
+                    <div class="text-[#fcdb03]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-slate-400">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    <img src="./assets/Project2-Images/user.2.png">
+                </div>
+                <div class="w-80 p-4 flex flex-col items-start gap-4 bg-white border-2 border-slate-200 rounded-md">
+                    <div class="text-[#fcdb03]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-slate-400">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    <img src="./assets/Project2-Images/user.3.png">
+                </div>
+            </div>
+        </section>
+        <section class="py-16">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-3xl font-semibold">FAQ</h2>
+                <p class="text-center w-10/12 md:w-1/2">Problems tryingto resolve the conflict betweem the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+                <div class="w-[22rem] relative py-4">
+                    <span class="text-sky-400 absolute top-4 left-4"><i class="fa-solid fa-angle-right"></i></span>
+                    <div class="px-8">
+                        <h3 class="font-semibold">the quick fox jumps over the lazy dog</h3>
+                        <p class="text-slate-400">Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-slate-100 py-16">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-3xl font-semibold">Pricing</h2>
+                <p class="text-center w-10/12 md:w-1/2">Problems tryingto resolve the conflict betweem the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="pt-12 flex flex-col items-center gap-2 md:gap-0 md:flex-row md:justify-center md:items-end">
+                <div class="w-64 p-4 border-2 border-sky-300 flex flex-col gap-4 items-center rounded-lg">
+                    <h2 class="text-2xl font-semibold">FREE</h2>
+                    <p class="text-center">organize across all apps by hand</p>
+                    <p class="text-sky-400"><span class="text-3xl font-semibold">0</span><sup class="font-semibold">$</sup>Per Month</p>
+                    <ul class="space-y-4">
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-slate-400 text-white"><i class="fa-solid fa-check"></i></div><p>1GB cloud storage</p></li>
+                        <li class="flex gap-2"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-slate-400 text-white"><i class="fa-solid fa-check"></i></div><p>Email and community support</p></li>
+                    </ul>
+                    <button class="py-2 px-16 text-white bg-sky-500 rounded-md">Try for Free</button>
+                </div>
+                <div class="w-64 px-4 py-8 border-2 border-sky-300 flex flex-col gap-4 items-center rounded-xl bg-slate-800 text-white">
+                    <h2 class="text-2xl font-semibold">STANDARD</h2>
+                    <p class="text-center">organize across all apps by hand</p>
+                    <p class="text-sky-400"><span class="text-3xl font-semibold">9.99</span><sup class="font-semibold">$</sup>Per Month</p>
+                    <ul class="space-y-4">
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>1GB cloud storage</p></li>
+                        <li class="flex gap-2"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Email and community support</p></li>
+                    </ul>
+                    <button class="py-2 px-16 text-white bg-sky-500 rounded-md">Try for Free</button>
+                </div>
+                <div class="w-64 p-4 border-2 border-sky-300 flex flex-col gap-4 items-center rounded-lg">
+                    <h2 class="text-2xl font-semibold">PREMIUM</h2>
+                    <p class="text-center">organize across all apps by hand</p>
+                    <p class="text-sky-400"><span class="text-3xl font-semibold">19.99</span><sup class="font-semibold">$</sup>Per Month</p>
+                    <ul class="space-y-4">
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Unlimited product updates</p></li>
+                        <li class="flex gap-4"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>1GB cloud storage</p></li>
+                        <li class="flex gap-2"><div class="w-6 h-6 flex justify-center items-center rounded-full bg-green-500 text-white"><i class="fa-solid fa-check"></i></div><p>Email and community support</p></li>
+                    </ul>
+                    <button class="py-2 px-16 text-white bg-sky-500 rounded-md">Try for Free</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex flex-col md:flex-row items-center md:justify-evenly gap-4 bg-slate-800 py-12">
+            <div class="w-[22rem] md:w-[26rem] text-white">
+                <h1 class="text-3xl font-bold">Get In Touch</h1>
+                <p class="text-slate-400">The gradual accumulation of informationabout atomic and small-scale behaviour during the first quarter of the 20th</p>
+            </div>
+            <div class="w-48 flex justify-center">
+                <input class="flex-grow text-lg p-2 rounded-l-md" type="email" placeholder="Your Email">
+                <button class="p-2 text-white bg-sky-400 rounded-r-md" type="menu">Subscribe</button>
+            </div>
+        </div>
+        <div class="w-9/12 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center items-center gap-4 my-12">
+            <div class="w-48 md:col-span-3 lg:col-span-1 lg flex flex-col gap-4">
+                <h2 class="text-2xl font-bold">Get In Touch</h2>
+                <p class="text-slate-400">the quick fox jumps over the lazy dog</p>
+                <div class="text-sky-400">
+                    <i class="px-2 fa-brands fa-facebook"></i>
+                    <i class="px-2 fa-brands fa-instagram"></i>
+                    <i class="px-2 fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="w-48">
+                <h2 class="text-2xl font-bold">Company info</h2>
+                <ul class="text-slate-400">
+                    <li>About Us</li>
+                    <li>Carrier</li>
+                    <li>We are hiring</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="w-48">
+                <h2 class="text-2xl font-bold">Features</h2>
+                <ul class="text-slate-400">
+                    <li>Business Marketing</li>
+                    <li>User Analytic</li>
+                    <li>Live Chat</li>
+                    <li>Unlimited Support</li>
+                </ul>
+            </div>
+            <div class="w-48">
+                <h2 class="text-2xl font-bold">Resources</h2>
+                <ul class="text-slate-400">
+                    <li>IOS & Android</li>
+                    <li>Watch a Demo</li>
+                    <li>Customers</li>
+                    <li>API</li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <p class="text-slate-400 font-semibold px-8">Made With Love By Vinayak Copyright &#169 All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
